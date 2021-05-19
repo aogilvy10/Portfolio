@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  h2, h3 {
+    color: rgb(146, 17, 17);
+    text-align: center;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  li {
+    list-style-type: none;
+    margin: 3vh 5vw;
+    font-size: 20px;
+  }
+  a {
+    margin-top: 3vh;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    border: 4px solid white;
+    border-radius: 10px;
+  }
+  
+}
+
+.main-images {
+  height: 38vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+  
+
+
+.page {
+  // background-color: rgb(36, 183, 219);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  .picture {
+    display: contents;
+  }
+  #icon {
+    font-size: 40px;
+    margin: 5vh 5vw;
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+    font-size: 38px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      text-align: center;
+    }
+  }
+  h3 {
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+    p {
+      text-align: center;
+    }
+    .about-header {
+      margin-top: 3vh;
+    }
+    .aboutMe {
+      max-width: 50vw;
+      margin: 3vh 0;
+      font-size: 20px;
+    }
+    .icon-one {
+      margin: 5vh 0;
+    }
+  }
+  .project-title, .interests-title, .contact-title, .experience-title {
+    margin: 3vh 0;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    .deployment {
+      margin-top: 3vh;
+    }
+    #project-icon-left, #project-icon-right {
+      font-size: 40px;
+    }
+    #project-icon-left, #project-icon-right {
+      margin-right: 5vw;
+      margin-left: 12vw;
+    }
+    .move-right {
+      margin-right: 8vw;
+    }
+    .title-left {
+      margin-left: 5vw;
+    }
+    .title-right {
+      margin-right: 5vw;
+    }
+    .paperclip {
+      height: 4.5vh;
+    }
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+    // img {
+    //   height: 20vh;
+    //   width: 20vw;
+    // }
+    .description {
+      max-width: 35vw;
+      font-size: 20px;
+    }
+    .projectOne, .projectThree {
+      display: flex;
+      flex-direction: row;
+      // align-items: baseline;
+      margin-left: 5vw;
+      gap: 2px;
+    }
+    .projectTwo, .projectFour {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-end;
+      margin-right: 5vw;
+    }
+    .projectTwo {
+      margin-bottom: 9vh;
+      margin-top: 3vh;
+    }
+    
+    .projectFour {
+      margin-bottom: 3vh;
+    }
+    .fut-team {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .fut-description, .garden-description {
+      margin-top: 15vh;
+      margin-left: 5vw;
+    }
+    .jetflix, .space-invaders {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .jetflix-description, .invaders-description {
+      margin-top: 15vh;
+      margin-right: 5vw;
+    }
+    .quote-garden {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    
+  }
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    .experience-content {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: center;
+    }
+    .e-description {
+      max-width: 28vw;
+      font-size: 20px;
+    }
+    h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .experienceOne, .experienceTwo, .experienceThree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // margin-left: 1.5vw;
+    }
+    .experienceTwo {
+      margin: 0 3vw
+    }
+    img {
+      height: 20vh;
+      width: 20vw;
+    }
+  }
+  
+  .interestsContainer {
+    display: flex;
+    flex-direction: column;    
+    // align-items: center;
+    margin-top: 5vh;
+  
+    h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .travel-title {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      margin-left: 5vw;
+    }
+    
+    .interests {
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+      // align-items: baseline;
+      margin-left: 5vw;
+    }
+    .sport-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-right: 5vw;
+    }
+      .interests-right {
+        display: flex;
+        flex-direction: row-reverse;
+        // align-items: flex-end;
+        margin-right: 5vw;
+      }
+      .interests-sport, .interests-p {
+        // margin-left: 10wv;
+        width: 35vw;
+        font-size: 20px;
+      }
+      .interests-p {
+        width: 35vw;
+      }
+      .travel, .soccer {
+        height: 20vh;
+      }
+      // .soccer {
+      //   margin-right: 15vw;
+      // }
+      .travel {
+        margin-left: 15vw;
+      }
+      .soccer {
+        margin-right: 15vw;
+      }
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+      h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mail-icon {
+        height: 8vh;
+        margin-left: 3vw;
+      }
+      #contact-icon {
+        font-size: 55px;
+        margin: 5vh;
+      }
+      .headshot-tag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .headshot {
+        height: 40vh;
+        width: 15vw;
+        border-radius: 20px;
+      }
+      .email-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .email{
+        width: 15vw;
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        border: none;
+        color: rgb(146, 17, 17);
+      }
+  }
+}
+
+
+
+
+html,body {padding:0; margin:0;}
+
+
+
