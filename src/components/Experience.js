@@ -1,7 +1,7 @@
 import React from 'react'
-import Hilton from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/Hilton_Logo_.jpeg'
-import Meriton from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/meriton.png'
-import General from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/GALogo.png'
+import Hilton from '../logos/Hilton_Logo_.jpeg'
+import Meriton from '../logos/meriton.png'
+import General from '../logos/GALogo.png'
 
 const Experience = () => {
 
@@ -10,7 +10,7 @@ const Experience = () => {
   return (
     <div className='experience-container'>
       <hr></hr>
-      <h1 className='experience-title'>Experience</h1>
+      <h1 className='experience-title' id='section3'>Experience</h1>
       <hr></hr>
       <div className='experience-content'>
         <div className='experienceOne'>
@@ -26,10 +26,11 @@ const Experience = () => {
           <h2>Meriton Suites</h2>
           <h3>Concierge/Porter</h3>
           <h3>Sydney, Australia<br></br> Nov 2019 - April 2020</h3>
-          <p className='e-description'>Welcome/ assist checking-in guests
-          Responsible for any customers inquiries: reservations, events, suggestions, directions
-          Assist with door malfunctions, safe assistance all computer-based problems
-          Ensure all inquiries are forwarded to the relevant department via Apps
+          <p className='e-description'>
+            <li>Welcome/assist checking-in guests</li>
+            <li>Responsible for any customers inquiries: reservations, events, suggestions, directions</li>
+            <li>Assist with door malfunctions, safe assistance all computer-based problems</li>
+            <li>Ensure all inquiries are forwarded to the relevant department via Apps</li>
           </p>
         </div>
         <div className='experienceThree'>
@@ -37,9 +38,11 @@ const Experience = () => {
           <h2>Hilton</h2>
           <h3>Front Desk Agent/Porter</h3>
           <h3>San Diego, California<br></br> Aug 2018 - Sept 2019</h3>
-          <p className='e-description'>Promote and up-sell rooms/amenities on the hotel property
-          Manage guest bills, ensuring accuracy and settlement in a timely manner
-  Be aware of the Hilton hotel’s availability and the availability of our local competitors, allowing customers to find accommodation when we were full</p>
+          <p className='e-description'>
+            <li>Promote and up-sell rooms/amenities on the hotel property</li>
+            <li>Manage guest bills, ensuring accuracy and settlement in a timely manner</li>
+            <li>Be aware of the Hilton hotel’s availability and the availability of our local competitors</li>
+         </p>
         </div>
       </div>
     </div>

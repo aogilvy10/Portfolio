@@ -1,14 +1,15 @@
 import React from 'react'
 // import Mail from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/mail.png'
-import Photo from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/IMG_3539.jpeg'
+import Photo from '../logos/IMG_3539.jpeg'
 
 const Contact = () => {
+
 
 
   return (
     <div className='contact'>
       <hr></hr>
-      <h1 className='contact-title'>Contact</h1>
+      <h1 className='contact-title' id='section5'>Contact</h1>
       <hr></hr>
       <a href='photo' className='headshot-tag'>
         <img alt='headshot' src={Photo} className='headshot'></img>
@@ -24,7 +25,10 @@ const Contact = () => {
         </a>
       </div>
       <div className='email-content'>
-        <p className='email'> ogilvyandrew@gmail.com</p>
+        <a href='Mailto: ogilvyandrew@gmail.com'>
+          <i class="devicon-google-plain" id='contact-icon'></i>
+        </a>
+        <p className='email'> EMAIL</p>
       </div>
     </div>
   )

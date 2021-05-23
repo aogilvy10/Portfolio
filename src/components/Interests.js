@@ -1,6 +1,6 @@
 import React from 'react'
-import Travel from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/travel.png'
-import Soccer from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/soccer-icon.png'
+import Travel from '../logos/travel.png'
+import Soccer from '../logos/soccer-icon.png'
 
 
 const Interests = () => {
@@ -9,7 +9,7 @@ const Interests = () => {
   return (
     <div className='interestsContainer'>
       <hr></hr>
-      <h1 className='interests-title'>Interests</h1>
+      <h1 className='interests-title' id='section4'>Interests</h1>
       <hr></hr>
         <h2 className='travel-title'>Travel</h2>
       <div className='interests'>

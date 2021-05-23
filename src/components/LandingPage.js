@@ -1,8 +1,9 @@
 import React from 'react'
 // import { HashLink as Link } from 'react-router-hash-link'
-import computer from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/computer-code-icon-17.jpeg'
-const LandingPage = () => {
+import computer from '../logos/computer-code-icon-17.jpeg'
+// import { Link, BrowserRouter } from 'react-router-dom'
 
+const LandingPage = () => {
 
 
   return (
@@ -11,12 +12,23 @@ const LandingPage = () => {
         <h1 className='name'>
           Andrew Ogilvy
         </h1>
-        <h3>Developer</h3>
+        <h3>Developer/Software Engineer</h3>
         <div className='navbar'>
-          <li>About Me</li>
-          <li>Experience</li>
-          <li>Interests</li>
-          <li>Contact</li>
+          <a href='#section1'>
+            <li>About Me</li>
+          </a>
+          <a href='#section2'>
+            <li>Projects</li>
+          </a>
+          <a href='#section3'>
+            <li>Experience</li>
+          </a>
+          <a href='#section4'>
+            <li>Interests</li>
+          </a>
+          <a href='#section5'>
+            <li>Contact</li>
+          </a>
         </div>
         <img src={computer} alt='computer'></img>
       </div>

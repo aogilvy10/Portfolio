@@ -1,9 +1,9 @@
 import React from 'react'
-import Quote from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/Quote Garden.png'
-import JETFLIX from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/JETFLIX.png'
-import Space from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/Space Invaders.png'
-import FUT from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/FUT.png'
-import Clip from '/Users/andrewogilvy/development/PROJECTS/portfolio/src/logos/paperclip-solid.svg'
+import Quote from '../logos/Quote Garden.png'
+import JETFLIX from '../logos/JETFLIX.png'
+import Space from '../logos/Space Invaders.png'
+import FUT from '../logos/FUT.png'
+import Clip from '../logos/paperclip-solid.svg'
 
 const Projects = () => {
 
@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div className='projects'>
       <hr></hr>
-      <h1 className='project-title'>Projects</h1>
+      <h1 className='project-title' id='section2'>Projects</h1>
       <hr></hr>
       <div className='projectOne'>
         <div className='fut-team'>
