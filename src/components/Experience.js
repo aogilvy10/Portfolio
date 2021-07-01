@@ -18,7 +18,7 @@ const Experience = () => {
             </a>
             <h2>General Assembly</h2>
             <h3>Software Engineering</h3>
-            <h3>London, UK (Remote)<br></br> Feb, 2021 - April 2021</h3>
+            <h3>London, UK (Remote)<br></br> Feb 2021 - April 2021</h3>
           <p className='e-description'>Full stack course, providing experience with the latest front-end and back-end programming languages, tools and methodologies.</p>
         </div>
         <div className='experienceTwo'>
@@ -28,7 +28,7 @@ const Experience = () => {
           <h3>Sydney, Australia<br></br> Nov 2019 - April 2020</h3>
           <p className='e-description'>
             <li>Welcome/assist checking-in guests</li>
-            <li>Responsible for any customers inquiries: reservations, events, suggestions, directions</li>
+            <li className='e-list'>Responsible for any customers inquiries: reservations, events, suggestions, directions</li>
             <li>Assist with door malfunctions, safe assistance all computer-based problems</li>
             <li>Ensure all inquiries are forwarded to the relevant department via Apps</li>
           </p>
