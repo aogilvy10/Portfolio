@@ -15,9 +15,12 @@
   
   h2, h3 {
     text-align: center;
-    font-family: 'Titillium Web', sans-serif;  }
+    font-family: 'Titillium Web', sans-serif;  
+  }
+
   h2 {
     font-size: 35px;
+
   }
   h3 {
     font-size: 25px;
@@ -34,9 +37,24 @@
     border-radius: 10px; 
     
   }
+  .developer {
+    font-size: 30px;
+    margin-bottom: 8vh;
+  }
   
 }
 
+
+#no-pointer {
+  pointer-events: none;
+}
+
+#animation {
+  transition: all .2s ease-in-out;
+}
+#animation:hover {
+  transform: scale(1.1); 
+}
 
 .page {
   margin: 0;
@@ -50,6 +68,7 @@
     height: 38vh;
     width: 30vw;
     border-radius: 10px;
+
   }
 
   #pic-animation {
@@ -73,13 +92,17 @@
   #icon {
     font-size: 55px;
     margin: 5vh 5vw;
+    transition: all .2s ease-in-out;
+  }
+  #icon:hover {
+    transform: scale(1.1); 
   }
   .name {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
-    font-size: 55px;
+    margin: 1.5vh 0;
+    font-size: 75px;
   }
   .container {
     display: flex;
@@ -101,6 +124,15 @@
   .navbar {
     display: flex;
     flex-direction: row;
+  }
+  
+  .links {
+    transition: all .2s ease-in-out;
+    color: black;
+  }
+  
+  .links:hover { 
+    transform: scale(1.1); 
   }
   .about {
     display: flex;
@@ -130,6 +162,14 @@
     .icon-one {
       margin: 5vh 0;
     }
+    .skills {
+      transition: all .2s ease-in-out;
+      
+    }
+    .skills:hover {
+      transform: scale(1.1); 
+    }
+
   }
   .project-title, .interests-title, .contact-title, .experience-title {
     margin: 3vh 0;
@@ -229,6 +269,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
+    height: 95vh;
     // align-items: center;
     .experience-content {
       display: flex;
@@ -275,9 +316,7 @@
   .interestsContainer {
     display: flex;
     flex-direction: column;    
-    // align-items: center;
-    margin-top: 5vh;
-  
+    height: 92vh;
     h1 {
       display: flex;
       flex-direction: column;
@@ -391,5 +430,10 @@
 
 html,body {padding:0; margin:0;}
 
-
+// @media screen and (max-width: 480px) {
+//   * {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }
 

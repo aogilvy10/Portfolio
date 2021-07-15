@@ -14,7 +14,7 @@ const About = () => {
         </p>
         <div className='icons-container'>
           <div className='icon-one'>
-            <i class="devicon-javascript-plain" id='icon'></i>
+            <i class="devicon-javascript-plain skills" id='icon'></i>
             <i class="devicon-html5-plain-wordmark" id='icon'></i>
             <i class="devicon-css3-plain-wordmark" id='icon'></i>
             <i class="devicon-react-original-wordmark" id='icon'></i>

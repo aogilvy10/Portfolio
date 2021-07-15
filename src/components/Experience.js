@@ -14,7 +14,7 @@ const Experience = () => {
       <hr></hr>
       <div className='experience-content'>
         <div className='experienceOne'>
-            <a href='hilton'><img src={General} alt='general' className='main-images'></img>
+            <a href='hilton' id="no-pointer"><img src={General} alt='general' className='main-images'></img>
             </a>
             <h2>General Assembly</h2>
             <h3>Software Engineering</h3>
@@ -29,7 +29,7 @@ const Experience = () => {
             </p>
         </div>
         <div className='experienceTwo'>
-          <a href='hilton'><img src={Meriton} alt='meriton' className='main-images'></img></a>
+          <a href='hilton' id="no-pointer"><img src={Meriton} alt='meriton' className='main-images'></img></a>
           <h2>Meriton Suites</h2>
           <h3>Concierge/Porter</h3>
           <h3>Sydney, Australia<br></br> Nov 2019 - April 2020</h3>
@@ -41,7 +41,7 @@ const Experience = () => {
           </p>
         </div>
         <div className='experienceThree'>
-          <a href='hilton'><img src={Hilton} alt='hilton' className='main-images'></img></a>
+          <a href='hilton' id="no-pointer"><img src={Hilton} alt='hilton' className='main-images'></img></a>
           <h2>Hilton</h2>
           <h3>Front Desk Agent/Porter</h3>
           <h3>San Diego, California<br></br> Aug 2018 - Sept 2019</h3>

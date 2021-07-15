@@ -28,10 +28,10 @@ const Projects = () => {
           </p>
           <div className='deployment'>
             <a href='https://github.com/aogilvy10/FUT-Team-Builder'>
-              <i class="devicon-github-original-wordmark" id='project-icon-left'></i>
+              <i class="devicon-github-original-wordmark" id='project-icon-left' ></i>
             </a>
-            <a href='here'>
-              <img src={Clip} alt='clip' className='paperclip'></img>
+            <a href='here' >
+              <img src={Clip} alt='clip' className='paperclip' id="animation"></img>
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Projects = () => {
               <i class="devicon-github-original-wordmark" id='project-icon-right'></i>
             </a>
             <a href='https://jetflixapp.herokuapp.com/'>
-              <img src={Clip} alt='clip' className='paperclip move-right'></img>
+              <img src={Clip} alt='clip' className='paperclip move-right' id="animation"></img>
             </a>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Projects = () => {
               <i class="devicon-github-original-wordmark" id='project-icon-left'></i>
             </a>
             <a href='https://masterofgardenquotes.netlify.app/'>
-              <img src={Clip} alt='clip' className='paperclip'></img>
+              <img src={Clip} alt='clip' className='paperclip' id="animation"></img>
             </a>
           </div>
         </div>
@@ -93,7 +93,7 @@ const Projects = () => {
               <i class="devicon-github-original-wordmark" id='project-icon-right'></i>
             </a>
             <a href='https://aogilvy10.github.io/Space-Invaders/'>
-              <img src={Clip} alt='clip' className='paperclip move-right'></img>
+              <img src={Clip} alt='clip' className='paperclip move-right' id="animation"></img>
             </a>
           </div>
         </div>

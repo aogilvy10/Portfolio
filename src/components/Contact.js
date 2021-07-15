@@ -4,8 +4,6 @@ import Photo from '../logos/IMG_3539.jpeg'
 
 const Contact = () => {
 
-
-
   return (
     <div className='contact'>
       <hr></hr>
