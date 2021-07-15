@@ -9,7 +9,7 @@ const About = () => {
       <h1 className='about-header' id='section1'>About Me</h1>
       <hr></hr>
       <div className='aboutMe'>
-        <p>
+        <p className="about-descrip">
           I am an eager and success-driven individual orginally from San Diego, California. I have come from very different workplaces within hospitality, assisting all types of people around the world. Being fascinated with the technological world, I recently made a career change and entered a software engineering bootcamp looking for a new challenge. Coupling a natural ability for problem-solving with strong interpersonal skills, I look forward to bringing my unique array of skills to a junior software developer role.
         </p>
         <div className='icons-container'>

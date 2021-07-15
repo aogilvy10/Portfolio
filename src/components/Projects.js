@@ -13,10 +13,10 @@ const Projects = () => {
       <hr></hr>
       <h1 className='project-title' id='section2'>Projects</h1>
       <hr></hr>
-      <div className='projectOne'>
+      <div className='projectOne' id="pic-animation">
         <div className='fut-team'>
           <a href='https://github.com/aogilvy10/FUT-Team-Builder'>
-            <img src={FUT} alt='fut' className='main-images'></img>
+            <img src={FUT} alt='fut' className='main-images' ></img>
           </a>
           <div className='title-left'>
             <h2>Fut-Team-Builder</h2>
@@ -36,9 +36,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='projectTwo'>
+      <div className='projectTwo' id="pic-animation">
         <div className='jetflix'>
-          <a href='https://github.com/aogilvy10/jetflix'><img src={JETFLIX} alt='quote' className='main-images'></img></a>
+          <a href='https://github.com/aogilvy10/jetflix'><img src={JETFLIX} alt='quote' className='main-images' ></img></a>
           <div className='title-right'>
             <h2>JETFLIX</h2>
             <h3>Group Project | One Week</h3>
@@ -57,9 +57,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='projectThree'>
+      <div className='projectThree' id="pic-animation">
         <div className='quote-garden'>
-          <a href='https://github.com/aogilvy10/Quote-Garden'><img src={Quote} alt='quote' className='main-images'></img></a>
+          <a href='https://github.com/aogilvy10/Quote-Garden'><img src={Quote} alt='quote' className='main-images' ></img></a>
           <div className='title-left'>
             <h2>Quote Garden</h2>
             <h3>Pair Project | One Week</h3>
@@ -78,9 +78,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='projectFour'>
+      <div className='projectFour' id="pic-animation">
         <div className='space-invaders'>
-          <a href='https://github.com/aogilvy10/Space-Invaders'><img src={Space} alt='quote' className='main-images'></img></a>
+          <a href='https://github.com/aogilvy10/Space-Invaders'><img src={Space} alt='quote' className='main-images' ></img></a>
           <div className='title-right'>
             <h2>Space Invaders</h2>
             <h3>Solo Project | One Week</h3>

@@ -19,7 +19,14 @@ const Experience = () => {
             <h2>General Assembly</h2>
             <h3>Software Engineering</h3>
             <h3>London, UK (Remote)<br></br> Feb 2021 - April 2021</h3>
-          <p className='e-description'>Full stack course, providing experience with the latest front-end and back-end programming languages, tools and methodologies.</p>
+            <p className='e-description'>
+              <li>A full-time 12-week Software Engineering Bootcamp</li>
+              <li>Developing full-stack applications</li>
+              <li>Structured lessons</li>
+              <li>Daily standups</li>
+              <li>Nightly homework</li>
+              <li>Group projects</li>
+            </p>
         </div>
         <div className='experienceTwo'>
           <a href='hilton'><img src={Meriton} alt='meriton' className='main-images'></img></a>
