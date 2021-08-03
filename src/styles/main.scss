@@ -334,9 +334,9 @@
     .interests {
       display: flex;
       flex-direction: row;
-      width: 100vw;
+      width: 100%;
       // align-items: baseline;
-      margin-left: 5vw;
+      // margin-left: 5vw;
     }
     .sport-title {
       display: flex;
@@ -359,6 +359,7 @@
       }
       .interests-p {
         width: 35vw;
+        margin-left: 5vw;
       }
       .travel, .soccer {
         height: 20vh;
