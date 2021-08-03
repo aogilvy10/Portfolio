@@ -14,7 +14,7 @@ const Contact = () => {
           <img alt='headshot' src={Photo} className='headshot'></img>
         </a>
         <div className='email-content'>
-          <a href='www.linkedin.com/in/andrew-ogilvy'>
+          <a href='https://linkedin.com/in/andrew-ogilvy'>
             <i class="devicon-linkedin-plain" id='contact-icon'>
             </i>
           </a>
