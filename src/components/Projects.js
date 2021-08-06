@@ -30,7 +30,7 @@ const Projects = () => {
             <a href='https://github.com/aogilvy10/FUT-Team-Builder'>
               <i class="devicon-github-original-wordmark" id='project-icon-left' ></i>
             </a>
-            <a href='here' >
+            <a href='https://fut-builder.herokuapp.com/' >
               <img src={Clip} alt='clip' className='paperclip' id="animation"></img>
             </a>
           </div>
